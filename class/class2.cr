@@ -1,4 +1,5 @@
 class Game
+  # attr_accessor :price #，:title
   def initialize(title = "怪物猎人", price = 200)
     @title = title
     @price = price
@@ -16,3 +17,5 @@ class Game
   end
 end
 
+a = Game.new()
+a.show
